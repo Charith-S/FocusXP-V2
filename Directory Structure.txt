@@ -1,0 +1,83 @@
+PS D:\D\4.1\OOSE LAB\FocusXP Application\New folder> tree /F
+Folder PATH listing for volume New Volume
+Volume serial number is AC59-3BC8
+D:.
+│   add_notes_column.py
+│   init_xp_system.py
+│   main.py
+│   README.md
+│   test_os_monitor.py
+│
+├───.pytest_cache
+│   │   .gitignore
+│   │   CACHEDIR.TAG
+│   │   README.md
+│   │
+│   └───v
+│       └───cache
+│               lastfailed
+│               nodeids
+│
+├───data
+│       focusxp.db
+│
+├───docs
+│       Design_Code_Alignment.md
+│
+├───exports
+│       focusxp_sessions_20251029_183855.csv
+│
+├───src
+│   │   __init__.py
+│   │
+│   ├───core
+│   ├───data
+│   │   │   database.py
+│   │   │   repositories.py
+│   │   │   __init__.py
+│   │   │
+│   │   └───__pycache__
+│   │           database.cpython-313.pyc
+│   │           repositories.cpython-313.pyc
+│   │           __init__.cpython-313.pyc
+│   │
+│   ├───detection
+│   │   │   os_monitor.py
+│   │   │   __init__.py
+│   │   │
+│   │   └───__pycache__
+│   │           os_monitor.cpython-313.pyc
+│   │           __init__.cpython-313.pyc
+│   │
+│   ├───ui
+│   │   │   dashboard_widget.py
+│   │   │   main_window.py
+│   │   │   session_widget.py
+│   │   │   settings_widget.py
+│   │   │   __init__.py
+│   │   │
+│   │   └───__pycache__
+│   │           dashboard_widget.cpython-313.pyc
+│   │           main_window.cpython-313.pyc
+│   │           session_widget.cpython-313.pyc
+│   │           settings_widget.cpython-313.pyc
+│   │           __init__.cpython-313.pyc
+│   │
+│   ├───utils
+│   │   │   export.py
+│   │   │   __init__
+│   │   │
+│   │   └───__pycache__
+│   │           export.cpython-313.pyc
+│   │
+│   └───__pycache__
+│           __init__.cpython-313.pyc
+│
+└───tests
+    │   test_database.py
+    │   test_os_monitor.py
+    │   __init__.py
+    │
+    └───__pycache__
+            test_database.cpython-313-pytest-8.4.2.pyc
+            __init__.cpython-313.pyc
